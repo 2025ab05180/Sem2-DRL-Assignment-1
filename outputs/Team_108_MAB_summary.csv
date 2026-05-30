@@ -1,0 +1,6 @@
+strategy,final_cumulative_reward,final_best_medicine,true_best_medicine_selected_count,convergence_patient,stability_score_lower_is_better,observed_recovery_rates,medicine_selection_counts
+Immediate Exploitation,466.7,4,960,43,2.436,"[0.4, 0.5, 0.3, 0.6, 0.676]","[10, 10, 10, 10, 960]"
+Epsilon-Greedy 1%,480.5,4,980,14,2.383,"[0.0, 0.0, 0.2, 0.5, 0.694]","[2, 1, 5, 12, 980]"
+Epsilon-Greedy 10%,422.0,4,179,849,2.166,"[0.278, 0.393, 0.409, 0.61, 0.67]","[18, 28, 22, 753, 179]"
+Epsilon-Greedy 50%,424.4,4,575,58,2.329,"[0.414, 0.506, 0.479, 0.602, 0.692]","[116, 87, 119, 103, 575]"
+UCB1 Confidence-Based,431.2,4,442,109,2.973,"[0.452, 0.446, 0.485, 0.645, 0.681]","[84, 83, 101, 290, 442]"
