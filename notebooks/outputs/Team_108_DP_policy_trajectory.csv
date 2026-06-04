@@ -1,0 +1,20 @@
+step,row,col,battery_before,rescued_mask_before,policy_action,actual_action,reward,total_reward,next_row,next_col,battery_after,rescued_mask_after,event
+1,0,0,10,0,DOWN,DOWN,-1.0,-1.0,1,0,9,0,regular transition
+2,1,0,9,0,DOWN,DOWN,-1.0,-2.0,2,0,8,0,regular transition
+3,2,0,8,0,RIGHT,RIGHT,-1.0,-3.0,2,1,7,0,regular transition
+4,2,1,7,0,DOWN,DOWN,-1.0,-4.0,3,1,6,0,regular transition
+5,3,1,6,0,DOWN,DOWN,4.0,0.0,4,1,10,0,reached charging station with low battery
+6,4,1,10,0,RIGHT,RIGHT,-1.0,-1.0,4,2,9,0,regular transition
+7,4,2,9,0,UP,UP,-1.0,-2.0,3,2,8,0,regular transition
+8,3,2,8,0,RIGHT,RIGHT,19.0,17.0,3,3,7,2,rescued target 1
+9,3,3,7,2,UP,UP,-1.0,16.0,2,3,6,2,regular transition
+10,2,3,6,2,UP,UP,-1.0,15.0,1,3,5,2,regular transition
+11,1,3,5,2,RIGHT,RIGHT,-1.0,14.0,1,4,4,2,regular transition
+12,1,4,4,2,RIGHT,RIGHT,19.0,33.0,1,5,3,3,rescued target 0
+13,1,5,3,3,UP,UP,-1.0,32.0,0,5,2,3,regular transition
+14,0,5,2,3,LEFT,LEFT,4.0,36.0,0,4,10,3,reached charging station with low battery
+15,0,4,10,3,DOWN,DOWN,-1.0,35.0,1,4,9,3,regular transition
+16,1,4,9,3,DOWN,DOWN,-1.0,34.0,2,4,8,3,regular transition
+17,2,4,8,3,DOWN,DOWN,-1.0,33.0,3,4,7,3,regular transition
+18,3,4,7,3,DOWN,DOWN,-1.0,32.0,4,4,6,3,regular transition
+19,4,4,6,3,DOWN,DOWN,19.0,51.0,5,4,5,7,rescued target 2; all rescue targets completed
