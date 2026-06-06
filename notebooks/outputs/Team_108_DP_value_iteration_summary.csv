@@ -1,2 +1,2 @@
 group_number,grid_size,max_battery,rescue_targets,approximate_state_count,reachable_state_count,gamma,theta,convergence_iterations,final_delta,runtime_seconds
-108,6x6,10,3,3168,1852,0.95,0.001,19,0.0004053210854735312,0.7947647999972105
+108,6x6,10,3,3168,1852,0.95,0.001,19,0.0004053210854735312,0.5019709000189323
